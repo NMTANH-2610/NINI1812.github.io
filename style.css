@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8bbd0; /* Nền hồng nhạt */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffccdc; /* Nền hồng đậm cho container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #d5006d; /* Màu hồng cho tiêu đề */
+}
+
+.question {
+    margin-bottom: 15px;
+    background-color: #ffeef8; /* Nền hồng nhạt cho câu hỏi */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.options {
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff6f91; /* Màu hồng cho nút */
+    color: white; /* Màu chữ trắng cho nút */
+    border: none;
+    border-radius: 5px;
+}
+
+.correct-answer {
+    color: green; /* Màu chữ cho câu trả lời đúng */
+}
+
+.wrong-answer {
+    color: red; /* Màu chữ cho câu trả lời sai */
+}
